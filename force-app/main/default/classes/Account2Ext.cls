@@ -5,7 +5,7 @@ public class Account2Ext {
     
     public PageReference save() {
       Savepoint sp = Database.setSavepoint();
-      System.debug('test message2');
+      System.debug('test message3');
       try{
         
         Insert acct;
